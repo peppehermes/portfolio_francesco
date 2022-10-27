@@ -40,7 +40,7 @@ export default function Contact() {
                         marginHeight={0}
                         marginWidth={0}
                         style={{ filter: "opacity(0.85)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=Corso+Francia,+280,+Torino,+TO,+Italia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        src="https://www.google.com/maps/embed/v1/place?q=Consulente+Finanziario+Torino+-+Francesco+Magagna,+Corso+Francia,+Turin,+Metropolitan+City+of+Turin,+Italy&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
                     <div className="2xl:w-2/3 w-full container bg-gray-900 bg-opacity-90 relative flex flex-wrap py-6 rounded shadow-xl invisible md:visible">
                         <div className="lg:w-1/2 px-6">
@@ -76,8 +76,7 @@ export default function Contact() {
                         Contattami
                     </h2>
                     <p className="leading-relaxed mb-5">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                        suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                        
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-500">
@@ -87,6 +86,30 @@ export default function Contact() {
                             type="text"
                             id="name"
                             name="name"
+                            onChange={(e) => setName(e.target.value)}
+                            className="bg-gray-600 bg-opacity-40 w-full rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        />
+                    </div>
+                    <div className="relative mb-4">
+                        <label htmlFor="name" className="leading-7 text-sm text-gray-500">
+                            Cognome
+                        </label>
+                        <input
+                            type="text"
+                            id="surname"
+                            name="surname"
+                            onChange={(e) => setName(e.target.value)}
+                            className="bg-gray-600 bg-opacity-40 w-full rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        />
+                    </div>
+                    <div className="relative mb-4">
+                        <label htmlFor="name" className="leading-7 text-sm text-gray-500">
+                            Telefono
+                        </label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
                             onChange={(e) => setName(e.target.value)}
                             className="bg-gray-600 bg-opacity-40 w-full rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />

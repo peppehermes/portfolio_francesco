@@ -52,11 +52,15 @@ export const testimonials = [
 export const linkedin = [
     {
         src: "https://www.linkedin.com/embed/feed/update/urn:li:share:6987881610813550593",
-        id: "6987881610813550593"
+        id: "6987881610813550593",
+        width: 504,
+        height: 700
     },
     {
         src: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6988431585687531521",
-        id: "6988431585687531521"
+        id: "6988431585687531521",
+        width: 504,
+        height: 700
     }
 
 ]
