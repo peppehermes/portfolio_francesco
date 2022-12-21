@@ -6,18 +6,18 @@ import React from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-// import Testimonials from './components/Testimonials';
+import LinkedIn from './components/LinkedIn';
+import Goals from './components/Goals';
+import Calendar from './components/Calendar';
 
 export default function App() {
   return (
     <main className="text-gray-400 bg-slate-100 body-font">
       <Navbar />
       <About />
-      <Skills />
-      {/* <Testimonials /> */}
-      <Projects />
+      <Goals />
+      <LinkedIn />
+      <Calendar />
       <Contact />
     </main>
   );
